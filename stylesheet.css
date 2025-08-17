@@ -1,0 +1,19 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+    .phone {
+      border: 2px solid #333;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px;
+      display: inline-block;
+      width: 300px;
+      vertical-align: top;
+    }
+    .screen {
+      border: 1px solid #aaa;
+      padding: 10px;
+      height: 150px;
+      overflow-y: auto;
+      background: #f9f9f9;
+      margin-bottom: 10px;
+    }
+    button { margin: 3px; }

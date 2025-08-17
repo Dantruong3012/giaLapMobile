@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile phone</title>
+  </head>
+  <body>
+    <h2>Phone talking!</h2>
+    <button onclick="iphone.checkStatus()">Checking Iphone Status</button>
+    <button onclick="iphone.turnOn()">Turn on</button>
+    <button onclick="iphone.turnOf()">Turn off</button>
+    <button onclick="iphone.charge(20)">Charging</button>
+    <button onclick="iphone.composeMessage(prompt('Enter message !'))">
+      Compose
+    </button>
+    <button onclick="iphone.sendMessage(samsung)">Send Message</button>
+    <button onclick="iphone.viewMessage()">View Inbox</button>
+    <button onclick="iphone.messageSent()">View Message Sent</button>
+    <hr />
+    <button onclick="samsung.checkStatus()">Checking Iphone Status</button>
+    <button onclick="samsung.turnOn()">Turn on</button>
+    <button onclick="samsung.turnOf()">Turn off</button>
+    <button onclick="samsung.charge(20)">Charging</button>
+    <button onclick="samsung.composeMessage(prompt('Enter message !'))">
+      Compose
+    </button>
+    <button onclick="samsung.sendMessage(iphone)">Send Message</button>
+    <button onclick="samsung.viewMessage()">View Inbox</button>
+    <button onclick="samsung.messageSent()">View Message Sent</button>
+    <script src="script.js"></script>
+  </body>
+</html>

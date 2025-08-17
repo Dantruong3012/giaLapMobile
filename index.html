@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mobile Simulation</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <h2>Mobile Simulation</h2>
+
+    <button onclick="iphone.checkStatus()">Check iPhone Status</button>
+    <button onclick="iphone.turnOn()">Turn ON iPhone</button>
+    <button onclick="iphone.turnOff()">Turn OFF iPhone</button>
+    <button onclick="iphone.charge(20)">Charge iPhone +20%</button>
+    <button onclick="iphone.composeMessage(prompt('Enter message:'))">
+      Compose Message (iPhone)
+    </button>
+    <button onclick="iphone.sendMessage(samsung)">
+      Send Message iPhone → Samsung
+    </button>
+    <button onclick="iphone.viewInbox()">View iPhone Inbox</button>
+    <button onclick="iphone.viewSent()">View iPhone Sent</button>
+    <hr />
+    <button onclick="samsung.checkStatus()">Check Samsung Status</button>
+    <button onclick="samsung.turnOn()">Turn ON Samsung</button>
+    <button onclick="samsung.turnOff()">Turn OFF Samsung</button>
+    <button onclick="samsung.charge(20)">Charge Samsung +20%</button>
+    <button onclick="samsung.composeMessage(prompt('Enter message:'))">
+      Compose Message (Samsung)
+    </button>
+    <button onclick="samsung.sendMessage(iphone)">
+      Send Message Samsung → iPhone
+    </button>
+    <button onclick="samsung.viewInbox()">View Samsung Inbox</button>
+    <button onclick="samsung.viewSent()">View Samsung Sent</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
